@@ -1,6 +1,6 @@
 # New Box
 
-Mount new box below existing junction box.
+Mount new box below near existing junction box.
 
 ![junction box](img/junction-box.png)
 
@@ -10,9 +10,13 @@ New box contains:
   lid detailing parts and connections inside box, replacement
   part numbers, and service instructions
 - two relays (to replace existing fan switch)
-- outlet for powering AC wall adapter
-    - AC adapter outputs 12VDC to power electronics
-    - use GFCI outlet
+- AC wall adapter (connects to 12VDC power extender cable
+  pass-through front of HVAC unit)
+    - 12VDC powers RL interface on front panel
+    - I2C cable from front panel also carries 12VDC to power
+      electronics in the box
+- means for cables to enter the box
+- strain-relief for all cables inside box
 
 TODO: diagram of box build
 

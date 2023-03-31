@@ -23,9 +23,10 @@ Scope of work includes:
 - identify off-the-shelf electronic components (such as
   development boards) and submit to RL for approval
 - identify all electrical materials and wiring methods (such as
-  conductor type and size and termination methods)
+  conductor type and size, termination methods, method for
+  running existing branch circuit wiring into new box, etc.)
 - identify requirements, if any, for over-current protection and
-  disconnect switch inside the box
+  disconnect switch inside the new box
 - build and test one box and demo to RL for approval prior to
   building all ten boxes
     - perform all tests of functionality on first box build
@@ -51,3 +52,18 @@ TODO: list tests
 
 TODO: example Bus Pirate script as I2C master using example
 I2C-GPIO expander
+
+TODO: add milestones, something like this:
+
+- select parts and submit to RL for approval
+- submit design drawing of box to RL for approval
+- build one box and submit video demo of functionality for
+  approval
+- perform tests and submit documentation of test methods and
+  results to RL for approval
+- submit updated design drawings to RL with final information and
+  all detail necessary to fabricate the design, to operate the
+  box, and to run all tests
+- ship first box to RL for final approval
+- proceed with builds of remaining boxes
+- test boxes and ship to RL

@@ -20,6 +20,13 @@ water spills out resulting in property damage.
 
 ## HVAC unit upgrade
 
+This diagram shows the relationship between the existing HVAC
+unit, the new box, and the Bus Pirate to the test computer.
+
+The Bus Pirate and computer are a proxy for the new user
+interface by RL. *The new user interface is not in the scope of
+work.*
+
 ```mermaid
 flowchart LR
 
@@ -43,6 +50,9 @@ flowchart LR
     i2c ==I2C=== i2c_io
 ```
 
+*The diagram only shows electronics, it does not show any of the
+electrical work.*
+
 RL upgrade of HVAC unit adds the following functionality:
 
 - **control** fan over I2C
@@ -51,6 +61,22 @@ RL upgrade of HVAC unit adds the following functionality:
 - **monitor** condensate tray over I2C
     - add water sensor to condensate tray
     - monitor output of water sensor with GPIO expander
+
+RL to design and install new user interface on front of unit:
+
+![render new front](img/render-new-front.png)
+
+Cables from new user interface pass through hole in front of unit
+and connect to box. Cables include:
+
+- 12VDC power extender cable
+- I2C cable
+
+TODO: provide part numbers and details on these cables
+
+Condensate tray sensor:
+
+![condensate tray sensor](img/condensate-tray-sensor-location.png)
 
 Use an I2C-GPIO expander to provide I2C controls and monitoring.
 

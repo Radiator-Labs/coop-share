@@ -8,20 +8,22 @@ electrician:
 ## Existing Fan Wiring
 
 Existing fan switch and duplex receptacle mounted on outside of
-HVAC unit to be removed by electrician and replaced with new quad
-(double gang) receptacle:
+HVAC unit:
 
 ![fan switch and receptacle](img/fan_switch-and-receptacle.png)
 
-*The fan is wired to the switch to select OFF/LOW/HIGH; the fan
-and receptacle are wired to the existing branch circuit.*
+Switch and receptacle to be removed by electrician and replaced
+with new quad receptacle:
 
-Existing branch circuit connection (BX armored cable) to switch,
-receptacle, and fan:
+![new quad](img/render-new-receptacle.png)
+
+Existing junction box with branch circuit connection (BX armored
+cable) to switch, receptacle, and fan:
 
 ![junction box](img/junction-box.png)
 
-*Mount new box below existing junction box.*
+*The fan is wired to the switch to select OFF/LOW/HIGH; the fan
+and receptacle are wired to the existing branch circuit.*
 
 Schematic of existing wiring:
 
