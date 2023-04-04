@@ -35,4 +35,11 @@ The HVAC unit dimensions are:
 - 25-inches tall
 - 9-inches deep
 
+## Test
+
+Demonstrate detecting condensate overflow at the Bus Pirate (I2C
+master) by mounting the liquid sensor in a cup at a specific
+height TBD (for example one-inch or two inches above bottom of
+cup).
+
 [Back to README.md](README.md)

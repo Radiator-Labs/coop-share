@@ -100,6 +100,29 @@ Scope of work includes:
   building all ten boxes
     - perform all tests of functionality on first box build
     - perform smaller set of tests on subsequent builds
+- use test proxies:
+    - purchase a [Bus
+      Pirate](https://www.sparkfun.com/products/12942) *any
+      USB-to-I2C master is acceptable, I refer to it as "Bus
+      Pirate" throughout these specifications*
+    - Bus Pirate is a test proxy for the RL user interface panel
+      (you will not receive an RL panel, but if the box works
+      with the Bus Pirate as I2C master, it will work with the RL
+      panel as I2C master)
+    - find a two-speed, permanent split-capacitor (PSC) fan motor
+      to use as a test proxy for the existing fan motor
+- write Python scripts to use a Bus Pirate as I2C master
+    - RL TODO: provide sample Bus Pirate script
+- tests of functionality are driven by the Bus Pirate:
+    - Bus Pirate reads liquid sensor
+        - liquid sensor trips at 1-inch liquid height
+        - liquid sensor does not trip below 1-inch liquid height
+    - Bus Pirate controls the two relays
+        - opens and closes relay 1
+        - opens and closes relay 2
+    - Bus Pirate sets fan OFF/LOW/HIGH:
+        - connect relays to PSC fan motor
+        - demonstrate final system runs fan OFF/LOW/HIGH
 - identify, and demonstrate design is in compliance with,
   any applicable articles from [NFPA 70
   (NEC)](https://link.nfpa.org/free-access/publications/70/2023)
