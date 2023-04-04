@@ -7,7 +7,18 @@ if water level is too high:
 
 ## Sensor
 
-TODO: sensor information
+Liquid sensor is simple on/off type, but exact sensor is TBD. An
+issue to consider in selecting the sensor is the long cable run
+from the new box to the existing condensate tray. The long cable
+run must not cause interference in the sensor signal.
+
+Here are examples of two types of on/off liquid sensors:
+
+- https://www.adafruit.com/product/3397
+- https://www.adafruit.com/product/4965
+
+Either type is acceptable as long as the long cable does not
+cause interference in the on/off signal.
 
 ## Cable length
 
@@ -24,4 +35,4 @@ The HVAC unit dimensions are:
 - 25-inches tall
 - 9-inches deep
 
-TODO: cable noise test
+[Back to README.md](README.md)

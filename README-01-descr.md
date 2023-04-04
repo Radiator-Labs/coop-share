@@ -62,17 +62,18 @@ RL upgrade of HVAC unit adds the following functionality:
     - add water sensor to condensate tray
     - monitor output of water sensor with GPIO expander
 
-RL to design and install new user interface on front of unit:
+RL to design and install new user interface (RL panel) on front
+of unit:
 
 ![render new front](img/render-new-front.png)
 
-Cables from new user interface pass through hole in front of unit
-and connect to box. Cables include:
+Cables from new user interface (RL panel) pass through hole in
+front of unit and connect to box. Cables include:
 
 - 12VDC power extender cable
 - I2C cable
 
-TODO: provide part numbers and details on these cables
+RL TODO: provide part numbers and details on these cables
 
 Condensate tray sensor:
 
@@ -84,4 +85,16 @@ Use a Bus Pirate as a proxy for the I2C master. *The I2C master
 is outside the scope of this work. Demonstrating control with the
 Bus Pirate is included in the scope of work.*
 
-TODO: I2C-GPIO expander details
+Examples of acceptable GPIO expander boards:
+
+- https://www.adafruit.com/product/4132
+- https://www.adafruit.com/product/5346
+
+RL TODO: list tests (what tests)
+
+RL TODO: example Bus Pirate script as I2C master using example
+I2C-GPIO expander
+    - see thermopile-share/python/mg_pyplot/simple-example.py
+    - use Adafruit 
+
+[Back to README.md](README.md)

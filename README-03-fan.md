@@ -35,4 +35,4 @@ New relay controls to switch fan OFF/LOW/HIGH:
 
 ![new wiring schematic](img/new-wiring-schematic.jpg)
 
-TODO: relay specs
+[Back to README.md](README.md)

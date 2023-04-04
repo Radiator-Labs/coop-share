@@ -1,8 +1,10 @@
 # New Box
 
-Mount new box below near existing junction box.
+Mount new box near / below existing junction box.
 
 ![junction box](img/junction-box.png)
+
+![box details](img/box-details.png)
 
 New box contains:
 
@@ -12,20 +14,11 @@ New box contains:
 - two relays (to replace existing fan switch)
 - AC wall adapter (connects to 12VDC power extender cable
   pass-through front of HVAC unit)
-    - 12VDC powers RL interface on front panel
-    - I2C cable from front panel also carries 12VDC to power
-      electronics in the box
+    - 12VDC power to RL panel
+    - I2C and 12VDC cable from RL panel
+        - 12VDC powers electronics in the box
 - means for cables to enter the box
 - strain-relief for all cables inside box
-
-TODO: diagram of box build
-
-TODO: reminder box to comply with code
-
-- box has safety-disconnect switch
-- TODO: OCPD? Perhaps terminal block with OCPD
-
-TODO: example BOM
 
 Installation requirements:
 
@@ -33,4 +26,5 @@ Installation requirements:
     - box has easy-to-remove lid
     - all components and wiring connections in box must be
       clearly labeled
-- TODO: add more installation requirements
+
+[Back to README.md](README.md)
