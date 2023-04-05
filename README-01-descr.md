@@ -1,8 +1,8 @@
 # Description
 
-## Existing HVAC unit
+## Existing AC unit
 
-Each existing HVAC unit consists of:
+Each existing AC unit consists of:
 
 - fan
     - fractional horsepower permanent split capacitor fan motor
@@ -18,9 +18,9 @@ The condensate tray catches pipe condensate during the cooling
 season. The water often builds up faster than it evaporates;
 water spills out resulting in property damage.
 
-## HVAC unit upgrade
+## AC unit upgrade
 
-This diagram shows the relationship between the existing HVAC
+This diagram shows the relationship between the existing AC
 unit, the new box, and the Bus Pirate to the test computer.
 
 The Bus Pirate and computer are a proxy for the new user
@@ -53,7 +53,7 @@ flowchart LR
 *The diagram only shows electronics, it does not show any of the
 electrical work.*
 
-RL upgrade of HVAC unit adds the following functionality:
+The upgrade of AC unit adds the following functionality:
 
 - **control** fan over I2C
     - replace manual switch with relays
@@ -62,13 +62,15 @@ RL upgrade of HVAC unit adds the following functionality:
     - add water sensor to condensate tray
     - monitor output of water sensor with GPIO expander
 
-RL to design and install new user interface (RL panel) on front
+RL will install new user interface (RL panel) on front
 of unit:
 
 ![render new front](img/render-new-front.png)
 
 Cables from new user interface (RL panel) pass through hole in
-front of unit and connect to box. Cables include:
+front of unit and connect to the Box. 
+
+Cables include:
 
 - 12VDC power extender cable
 - I2C cable
@@ -90,11 +92,11 @@ Examples of acceptable GPIO expander boards:
 - https://www.adafruit.com/product/4132
 - https://www.adafruit.com/product/5346
 
-RL TODO: list tests (what tests)
-
-RL TODO: example Bus Pirate script as I2C master using example
 I2C-GPIO expander
     - see thermopile-share/python/mg_pyplot/simple-example.py
     - use Adafruit 
+
+
+RL TODO: example Bus Pirate script as I2C master using example
 
 [Back to README.md](README.md)
