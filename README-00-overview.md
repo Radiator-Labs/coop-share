@@ -81,6 +81,10 @@ Final deliverables include:
 - installation instructions either in written or video form for:
     - (written) connecting box to existing branch circuit wiring
     - testing fan control using computer-controller I2C master
+- CAD drawings:
+    - box (dimensioned drawing detailing any modifications)
+    - design (layout of parts within box)
+    - box-insert-diagram (printed drawing glued inside box)
 
 ## Scope of work
 
@@ -139,14 +143,14 @@ We will work together to determine the final milestones. The following list of m
 a starting point for the discussion:
 
 - M1: Select parts and submit to RL for approval
-- M2: Submit design drawing of box to RL for approval
+- M2: Submit CAD design drawing of box to RL for approval
 - M3: Build one box and submit video demo of functionality for
   approval
 - M4: Perform tests and submit video of test activities and
   results to RL for approval
-- M5: Submit updated design drawings to RL with final information and
-  all detail necessary to fabricate the design, to operate the
-  box, and to run all tests
+- M5: Submit updated CAD design drawings to RL with final
+  information and all detail necessary to fabricate the design,
+  to operate the box, and to run all tests
 - M6: Ship first box to RL for final approval
 - M7:  proceed with builds of remaining 9 boxes, test 9 boxes and ship to RL
 

@@ -24,17 +24,28 @@ location, box shall be no larger than approximately 6-inch x
 
 New box contains:
 
+- I2C GPIO expander
+- voltage regulator
+    - converts 12VDC to 3.3V/5V for I2C GPIO expander
+- two relays (to replace existing fan switch)
+- outlet to power AC wall adapter
+- AC wall adapter
+    - part number specified by RL
+    - connects to 12VDC power extender cable that passes through
+      front of AC unit
+    - AC wall adapter provides 12VDC power to RL panel
+- means for cables to enter the box
+    - existing branch wiring
+    - existing fan wiring
+    - 12VDC power extender cable from RL panel
+        - connects to AC adapter inside of box
+    - I2C and 12VDC cable from RL panel
+        - 12VDC powers electronics in the box
+    - cable to liquid sensor in condensate tray
+- strain-relief for all cables inside box
 - printed diagram/schematic drawing (CAD, not hand sketch) glued
   to inner face of box lid detailing parts and connections inside
   box, replacement part numbers, and service instructions
-- two relays (to replace existing fan switch)
-- AC wall adapter (connects to 12VDC power extender cable
-  pass-through front of HVAC unit)
-    - 12VDC power to RL panel
-    - I2C and 12VDC cable from RL panel
-        - 12VDC powers electronics in the box
-- means for cables to enter the box
-- strain-relief for all cables inside box
 
 Installation requirements:
 
