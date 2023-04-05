@@ -33,10 +33,13 @@ outside the scope of this work). The new relays you will add to the "Box" will c
 OFF/LOW/HIGH. Relays are mounted inside of new box to be
 installed inside of AC unit.
 
-(Side note: The electrician will also remove the duplex receptacle and replace with quad receptacle so that the tenant has even more outlet options) 
-
-You box will have a liquid level sensor to the condensate tray to trigger alarm on
-*condensate overflow*. You can determine the sensor type, and here one we have looked at https://sstsensing.com/product/optomax-digital-range-of-liquid-level-switches-2/. It is very important to note that water sensor will be 8 feet of wire away from the box, so the solution for the water sensor must be tested to work with 8 feet of wire.
+Your box will have a liquid level sensor to the condensate tray to
+trigger alarm on *condensate overflow*. You can determine the
+sensor type, and here one we have looked at
+https://sstsensing.com/product/optomax-digital-range-of-liquid-level-switches-2/.
+It is very important to note that water sensor will be 8 feet of
+wire away from the box, so the solution for the water sensor must
+be tested to work with 8 feet of wire.
 
 The interface between "the Panel" (which is the Radiator Lab's Printed Circuit Board (PCB)) and the new sensor and two relays is an I2C GPIO
 expander. RL panel is the I2C master. Therefore, the Box needs to have an I2C GPIO expander.
@@ -65,7 +68,6 @@ The box contains both 120VAC wiring and low voltage DC wiring
 New components installed *outside* the box are:
 
 - liquid sensor
-- quad receptacle (done by the electrician)
 
 ## Deliverables
 
@@ -73,7 +75,7 @@ Final deliverables include:
 
 - 1 Box builds
 - Approval of Box Build
-- 9 more idential box builds post approval
+- 9 more identical box builds post approval
 - bill of materials
 - video demonstration of all functionality (fan on/low/high, water sensor detecting, etc.)
 - video demonstration of all tests (detailed below in 'scope of work' section)

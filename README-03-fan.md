@@ -8,14 +8,9 @@ electrician:
 ## Existing Fan Wiring
 
 Existing fan switch and duplex receptacle mounted on outside of
-HVAC unit:
+HVAC unit, to be removed by electrician:
 
 ![fan switch and receptacle](img/fan_switch-and-receptacle.png)
-
-Switch and receptacle to be removed by electrician and replaced
-with new quad receptacle:
-
-![new quad](img/render-new-receptacle.png)
 
 Existing junction box with branch circuit connection (BX armored
 cable) to switch, receptacle, and fan:
