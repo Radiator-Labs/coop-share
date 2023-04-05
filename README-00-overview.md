@@ -45,6 +45,8 @@ The Box also provides a single receptacle to power RL Panel, which has an AC ada
 The AC adapter powers RL panel with 12VDC. The 4-wire connection from the RL
 Panel to box is 12VDC power and I2C bus.
 
+The wiring diagram: https://github.com/Radiator-Labs/coop-share/blob/main/README-02-box-build.md#inside-the-box shows outlet for plugging in 12VDC and shows outlet and fan wiring tapping into branch circuit. Part of the your work as a freelancer is to write the instructions for the on-site Electrician to do this work and provide list of materials to purchase for the Electrician. The outlet and fan wiring connections are inside the new box, so the freelancer provides those and installs them in the new boxes. The on-site Electrician connects the branch circuit wiring to the new box following the freelancer's instructions.
+
 ## 3 - Box Detail
 
 This is a conceptual sketch. We expect the Box will include
@@ -77,7 +79,7 @@ Final deliverables include:
 - video demonstration of all tests (detailed below in 'scope of work' section)
 - instructions for Radiator Labs (RL) to repeat all tests
 - installation instructions either in written or video form for:
-    - connecting box to existing branch circuit wiring
+    - (written) connecting box to existing branch circuit wiring
     - testing fan control using computer-controller I2C master
 
 ## Scope of work
@@ -93,6 +95,7 @@ Scope of work includes:
   running existing branch circuit wiring into new box, etc.)
 - identify requirements, if any, for over-current protection and
   disconnect switch inside the new box
+- instructions for on-site electrician to connect your box
 - build and test one box and demo to RL for approval prior to
   building all ten boxes
     - perform all tests of functionality on first box build
