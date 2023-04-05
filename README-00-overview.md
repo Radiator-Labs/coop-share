@@ -29,9 +29,9 @@ Fan motor has three wires: common, LOW speed, HIGH speed.
 
 ## 2 - Upgrade
 
-Remove fan switch and replace with new relays controlled by RL
-panel (RL panel is a new user interface provided by RL and is
-outside the scope of this work). New relays control existing fan
+Remove fan switch and replace with new relays controlled by Radiator Labs (RL)
+panel (the panel is a new user interface provided by RL and is
+outside the scope of this work). The new relays you add will control the existing fan's modes of 
 OFF/LOW/HIGH. Relays are mounted inside of new box to be
 installed inside of HVAC unit.
 
