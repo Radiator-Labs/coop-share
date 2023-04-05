@@ -112,7 +112,7 @@ Scope of work includes:
     - find a two-speed, permanent split-capacitor (PSC) fan motor
       to use as a test proxy for the existing fan motor
 - write Python scripts to use a Bus Pirate as I2C master
-    - RL TODO: provide sample Bus Pirate script
+    - RL TODO: we will write the core set of scripts here. We need you, the freelancer, to be comfortable enough with Python to run the script and modify it as needed.
 - tests of functionality are driven by the Bus Pirate:
     - Bus Pirate reads liquid sensor
         - liquid sensor trips at 1-inch liquid height
